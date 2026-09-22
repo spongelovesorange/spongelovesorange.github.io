@@ -4,42 +4,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Shi Qiu is an M.S. student at NYU Courant researching trustworthy LLMs and agentic systems: reliable evaluation, verifiable correction, and evidence-grounded decision-making.">
-  <meta name="theme-color" content="#fafbf9">
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="Shi Qiu | NYU Courant">
   <meta property="og:description" content="Trustworthy LLMs and agentic systems. Reliable evaluation, verifiable correction, and evidence-grounded decisions.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://spongelovesorange.github.io/shiqiu.github.io/assets/shi-qiu.jpg">
+  <meta property="og:image" content="https://spongelovesorange.github.io/assets/shi-qiu.jpg">
+  <link rel="canonical" href="https://spongelovesorange.github.io/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231b514b'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='38' fill='white'%3EQ%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/academic.css">
+  <script src="assets/theme.js"></script>
+  <script src="assets/site.js" defer></script>
   <title>Shi Qiu | NYU Courant</title>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <div class="layout">
+  <div class="layout" id="home">
     <aside class="profile" aria-label="Profile and navigation">
       <a class="portrait-link" href="assets/shi-qiu.jpg" aria-label="View photo of Shi Qiu"><img class="portrait" src="assets/shi-qiu.jpg" alt="Shi Qiu at an art museum" width="720" height="960" fetchpriority="high"></a>
       <div class="profile-copy">
-        <a class="name" href="#about">Shi Qiu</a>
+        <p class="profile-name">Shi Qiu</p>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" hidden>
+      <!-- Lucide moon icon, ISC license; see assets/lucide-LICENSE. -->
+      <svg class="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      <svg class="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2M20 12h2m-13.66 5.66-1.41 1.41m14.14-14.14-1.41 1.41"/></svg>
+        </button>
         <p class="position">M.S. in Computer Science<br><span>NYU Courant</span></p>
         <p class="location">New York, NY</p>
         <a class="email" href="mailto:sq2335@nyu.edu">sq2335@nyu.edu</a>
         <div class="social"><a href="https://github.com/spongelovesorange">GitHub</a><a href="https://openreview.net/profile?id=~Shi_Qiu7">OpenReview</a><a href="files/Shi_Qiu_CV.pdf">CV <span aria-hidden="true">&#8599;</span></a></div>
       </div>
-      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#publications">Publications</a><a href="#research">Research</a><a href="#background">Background</a><a href="#honors">Honors</a></nav>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#publications">Publications</a><a href="#research">Research</a><a href="#background">Background</a><a href="#honors">Honors</a><a href="#built">Things I've built</a></nav>
       <p class="sidebar-note">Trustworthy AI.<br>Grounded in evidence.</p>
     </aside>
-
     <main id="main">
-      <section id="about" class="about">
+      <section id="about" class="about"><div class="section-inner">
+      <div class="about-copy">
         <p class="eyebrow">Trustworthy LLMs &amp; agentic systems</p>
         <h1>Hi, I'm Shi.</h1>
-        <p>I'm <strong>Shi Qiu</strong>, a first-year M.S. student in Computer Science at <a href="https://cs.nyu.edu/">NYU Courant</a>. My research focuses on <strong>trustworthy LLMs and agentic systems</strong>: evaluating them reliably, correcting them verifiably, and keeping their decisions grounded in evidence.</p>
+        <p>I'm a first-year M.S. student in Computer Science at <a href="https://cs.nyu.edu/">NYU Courant</a>. My research focuses on <strong>trustworthy LLMs and agentic systems</strong>: evaluating them reliably, correcting them verifiably, and keeping their decisions grounded in evidence.</p>
         <p>My work started in trustworthy recommender systems, including machine unlearning and counterfactual explanation, and has since moved to LLM agents, where I build benchmarks, verifiable repair methods, and auditable multi-agent workflows for engineering design.</p>
         <p>Before NYU, I received my B.Eng. in Electrical Engineering from Xi'an Jiaotong-Liverpool University and worked as a research assistant with Prof. Fanfan Lin at the ZJU-UIUC Institute.</p>
         <p class="phd-note">I'm applying for PhD programs for <strong>Fall 2028 entry</strong>.</p>
-      </section>
+      </div></div></section>
 
-      <section id="publications">
+      <section id="publications"><div class="section-inner">
         <div class="section-heading"><h2>Publications</h2><a href="files/Shi_Qiu_CV.pdf">Full CV <span aria-hidden="true">&#8599;</span></a></div>
         <h3 class="group-heading">Published &amp; accepted</h3>
         <ol class="papers">
@@ -97,32 +106,65 @@
             <div class="paper-links"><a href="papers/distilled-prompt-unlearning.pdf">PDF</a><a href="https://github.com/zhanghaichao520/Prompt-Unlearning">Code</a></div>
           </li>
         </ol>
-      </section>
+      </div></section>
 
-      <section id="research">
+      <section id="research"><div class="section-inner">
         <div class="section-heading"><h2>Research</h2></div>
         <p class="section-intro">From controlling what a model forgets to checking what an agent does.</p>
         <article class="research-row"><span class="research-number">01</span><div><h3>Evaluate reliably</h3><p>With <strong>PE-Bench</strong>, I study how to evaluate engineering agents beyond simulation success: checking specification compliance, physical consistency, component feasibility, and the evidence supporting a design.</p></div></article>
         <article class="research-row"><span class="research-number">02</span><div><h3>Correct verifiably</h3><p><strong>PowerFix</strong> connects physics-guided diagnosis with constrained patches and independent validation. This continues a broader interest in controllable model behavior, rooted in recommendation unlearning and counterfactual explanation.</p></div></article>
         <article class="research-row"><span class="research-number">03</span><div><h3>Keep decisions grounded</h3><p><strong>PE-GPT 2.0</strong> brings review gates and engineering evidence into multi-agent design. In <strong>AMPilot</strong>, my iGEM 2026 project, I build an LLM/RAG-assisted antimicrobial peptide workbench with source tracking, checkpointed execution, human approvals, and biosafety-aware output controls.</p><a href="https://github.com/spongelovesorange/Aegis-AMP">AMPilot public prototype <span aria-hidden="true">&#8599;</span></a><p class="project-note">Current AMPilot development is maintained privately.</p></div></article>
-      </section>
+      </div></section>
 
-      <section id="background">
+      <section id="background"><div class="section-inner">
         <div class="section-heading"><h2>Background</h2></div>
         <div class="background-row"><span class="date">2026 &ndash; 2028</span><div><h3>New York University</h3><p>M.S. in Computer Science, Courant Institute<br>Expected August 2028</p></div></div>
         <div class="background-row"><span class="date">2022 &ndash; 2026</span><div><h3>Xi'an Jiaotong-Liverpool University</h3><p>B.Eng. in Electrical Engineering</p></div></div>
         <div class="background-row"><span class="date">Research</span><div><h3>Zhejiang University &middot; ZJU-UIUC Institute</h3><p>Research Assistant with Prof. Fanfan Lin<br>Trustworthy multi-agent systems for engineering design</p></div></div>
         <div class="background-row"><span class="date">Jun &ndash; Nov 2025</span><div><h3>Microsoft</h3><p>Artificial Intelligence Engineer Intern</p></div></div>
-      </section>
+      </div></section>
 
-      <section id="honors">
+      <section id="honors"><div class="section-inner">
         <div class="section-heading"><h2>Selected honors</h2></div>
         <div class="honor"><span class="date">2026</span><div><h3>IEEE IES SYPA Travel Award</h3><p>One of 10 award recipients, for PE-GPT 2.0.</p><a href="https://www.youtube.com/watch?v=JzlFLe246RY">Watch the research video <span aria-hidden="true">&#8599;</span></a></div></div>
         <div class="honor"><span class="date">2026</span><div><h3>China Scholarship Council (CSC) Doctoral Scholarship</h3><p>48-month funding for PhD study at McGill University; start deferred due to study-permit delays.</p></div></div>
         <div class="honor"><span class="date">2024</span><div><h3>iGEM Bronze Medal</h3><p><a href="https://2024.igem.wiki/xjtlu-china/index.html">Eco MEGA</a> &middot; XJTLU-China team</p></div></div>
         <div class="honor"><span class="date">2023</span><div><h3>iGEM Gold Medal</h3><p><a href="https://2023.igem.wiki/xjtlu-china/">CLARITEIN</a> &middot; Software and modeling lead, XJTLU-China team</p></div></div>
-      </section>
-      <footer><span>Shi Qiu &middot; Updated September 2026</span><a href="#about">Back to top <span aria-hidden="true">&#8593;</span></a></footer>
+      </div></section>
+      <section id="built"><div class="section-inner">
+        <div class="section-heading reveal"><h2>Things I've built.</h2></div>
+        <article class="build-project">
+          <div class="build-copy reveal"><p class="eyebrow">Heavy-metal wastewater devices &middot; iGEM 2023</p><h3>Three versions. One goal:<br>every drop touches the protein.</h3><p>I designed three iterations of a protein-based adsorption device in SolidWorks, moving from a flow-through column to an internally circulating design after working through the problem with our wet-lab and modeling teams.</p><p>A second design for silver-ion recovery incorporates a waterproof motor for bidirectional circulation, a temperature and humidity sensor, and an ion-selective electrode. I 3D-printed and wired prototype parts with Arduino, teaching myself CAD and embedded systems in my first year.</p><a href="https://2023.igem.wiki/xjtlu-china/hardware.html">Full design notes &#8599;</a></div>
+          <div class="cad-gallery reveal">
+            <figure><a href="assets/hardware/hardware3.jpg"><img src="assets/hardware/hardware3.jpg" alt="Third iteration CAD drawing showing the internal circulation path" loading="lazy"></a><figcaption>Version 3. Internal circulation design.</figcaption></figure>
+            <figure><video controls loop muted playsinline preload="none" poster="assets/hardware/hardware9-poster.jpg" aria-label="Silver-ion device CAD animation"><source src="assets/hardware/hardware9.mp4" type="video/mp4"></video><figcaption>Silver-ion recovery device. CAD animation.</figcaption></figure>
+          </div>
+          <figure class="prototype-figure reveal"><a href="assets/igem-prototypes.jpg" aria-label="View original unedited iGEM prototype photograph"><img src="assets/igem-prototypes-cutout.jpg" width="1448" height="1086" alt="Background-removed presentation of pink prototype parts, Arduino, OLED, and connecting wires" loading="lazy"></a><figcaption>First-year prototype parts, 2023. AI-assisted background removal; <a href="assets/igem-prototypes.jpg">original photograph</a>. The complete outer enclosure was not fabricated.</figcaption></figure>
+          <details class="design-archive"><summary>More drawings &amp; animations</summary><div class="archive-grid" id="design-gallery">
+            <figure><a href="assets/hardware/hardware1.jpg"><img src="assets/hardware/hardware1.jpg" alt="First version flow-through column CAD drawing" loading="lazy"></a><figcaption>Version 1. Flow-through column.</figcaption></figure>
+            <figure><video controls muted loop playsinline preload="none" poster="assets/hardware/hardware-for-heavy-metal-poster.jpg" aria-label="Heavy-metal adsorption device animation"><source src="assets/hardware/hardware-for-heavy-metal.mp4" type="video/mp4"></video><figcaption>Initial device animation. <a href="assets/hardware/hardware-for-heavy-metal.gif">Original GIF</a></figcaption></figure>
+            <figure><a href="assets/hardware/hardware2.jpg"><img src="assets/hardware/hardware2.jpg" alt="Second version device cross-section and dimensions" loading="lazy"></a><figcaption>Version 2. Cross-section and dimensions.</figcaption></figure>
+            <figure><a href="assets/hardware/hardware3.jpg"><img src="assets/hardware/hardware3.jpg" alt="Third version internal circulation design" loading="lazy"></a><figcaption>Version 3. Internal circulation.</figcaption></figure>
+            <figure><a href="assets/hardware/hardware-12.jpg"><img src="assets/hardware/hardware-12.jpg" alt="Fabricated internal prototype structure" loading="lazy"></a><figcaption>Internal prototype structure.</figcaption></figure>
+            <figure><a href="assets/hardware/hardware4.jpg"><img src="assets/hardware/hardware4.jpg" alt="Silver-ion device sensor and motor design" loading="lazy"></a><figcaption>Silver-ion device. Sensors and motor.</figcaption></figure>
+            <figure><a href="assets/hardware/hardware5.jpg"><img src="assets/hardware/hardware5.jpg" alt="Silver-ion device assembly design" loading="lazy"></a><figcaption>Assembly design.</figcaption></figure>
+            <figure><a href="assets/hardware/hardware6.jpg"><img src="assets/hardware/hardware6.jpg" alt="Adsorption carrier design" loading="lazy"></a><figcaption>Adsorption carrier.</figcaption></figure>
+            <figure><video controls muted loop playsinline preload="none" poster="assets/hardware/hardware-10-poster.jpg" aria-label="Silver-ion device internal CAD animation"><source src="assets/hardware/hardware-10.mp4" type="video/mp4"></video><figcaption>Internal assembly animation. <a href="assets/hardware/hardware-10.gif">Original GIF</a></figcaption></figure>
+            <figure><video controls muted loop playsinline preload="none" poster="assets/hardware/hardware9-poster.jpg" aria-label="Silver-ion recovery CAD animation"><source src="assets/hardware/hardware9.mp4" type="video/mp4"></video><figcaption>Device animation. <a href="assets/hardware/hardware9.gif">Original GIF</a></figcaption></figure>
+            <figure><a href="assets/hardware/hardware7.jpg"><img src="assets/hardware/hardware7.jpg" alt="Silver-ion recovery hardware model" loading="lazy"></a><figcaption>Silver-ion recovery model.</figcaption></figure>
+            <figure><a href="assets/hardware/hardware8.jpg"><img src="assets/hardware/hardware8.jpg" alt="Protein membrane placement in the device" loading="lazy"></a><figcaption>Protein membrane placement.</figcaption></figure>
+          </div><p class="source-note">Original design media: <a href="https://2023.igem.wiki/xjtlu-china/hardware.html">XJTLU-China, iGEM 2023</a> &middot; <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. CAD drawings describe designs, not validated treatment performance. GIFs are also provided as videos with playback controls.</p></details>
+        </article>
+        <article class="build-project">
+          <div class="build-copy reveal"><p class="eyebrow">Pick-and-place gantry &middot; with B&amp;R &middot; March &ndash; June 2025</p><h3>Two controllers. Two voltages.<br>One relay board.</h3><p>A stepper-driven gantry with a pneumatic arm, coordinated by an Arduino Mega and a B&amp;R PLC. I designed the relay interface that let the two controllers communicate safely across voltage levels.</p></div>
+          <div class="hardware-gallery reveal">
+            <figure><a href="assets/br-gantry.jpg"><img src="assets/br-gantry.jpg" width="1200" height="1600" loading="lazy" alt="Stepper-driven gantry inside a yellow safety enclosure"></a><figcaption>The stepper-driven gantry.</figcaption></figure>
+            <figure><a href="assets/br-controls.jpg"><img src="assets/br-controls.jpg" width="1200" height="1600" loading="lazy" alt="Control cabinet containing motor drivers, relay board, and Arduino interface wiring"></a><figcaption>Relay interface and control cabinet.</figcaption></figure>
+          </div>
+        </article>
+        <article class="wiki-project reveal"><p class="eyebrow">iGEM team websites &middot; 2023 &amp; 2024</p><h3>Built for the team.</h3><p>I designed and built both XJTLU-China team wikis from scratch.</p><div class="paper-links"><a href="https://2023.igem.wiki/xjtlu-china/">2023 team wiki</a><a href="https://2024.igem.wiki/xjtlu-china/index.html">2024 team wiki</a></div></article>
+      </div></section>
+      <footer><div class="section-inner"><span>Shi Qiu &middot; Updated September 2026</span><a href="#home">Back to top &#8593;</a></div></footer>
     </main>
   </div>
 </body>

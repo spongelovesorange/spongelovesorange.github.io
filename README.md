@@ -1,8 +1,8 @@
 # Shi Qiu | Academic Website
 
-Personal research website: **https://spongelovesorange.github.io/shiqiu.github.io/**
+Personal research website: **https://spongelovesorange.github.io/**
 
-The live website lives in [`docs/`](docs/README.md). GitHub Pages serves the `master` branch's `/docs` folder; no local build is required. Edit [`docs/index.html`](docs/index.html) for content and [`docs/assets/style.css`](docs/assets/style.css) for styling.
+The live website lives in [`docs/`](docs/README.md). GitHub Pages serves the `master` branch's `/docs` folder; no local build is required. Edit [`docs/index.html`](docs/index.html) for content. The original academic layout uses `docs/assets/style.css`, with typography, dark mode, and hardware gallery refinements in `docs/assets/academic.css`.
 
 Only the selected photo, CV, and paper PDFs are public assets. **Do not add transcripts or other private records.** The Academic Pages template below and elsewhere in this repository is retained for reference and is not part of the deployed site.
 
