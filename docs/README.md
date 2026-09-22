@@ -4,7 +4,7 @@ This self-contained site is published from `master`, folder `/docs`, using GitHu
 
 Live URL: https://spongelovesorange.github.io/
 
-Edit `index.html` for content, `assets/style.css` for the base academic layout, and `assets/academic.css` for refinements. Links are relative to support local previews. Fonts are system-installed only; no SF Pro font files are distributed. Dark mode follows the OS until manually toggled. Scroll reveals respect reduced motion. Videos have explicit playback controls.
+Edit `index.html` for content, `assets/style.css` for the base academic layout, and `assets/academic.css` for refinements. Links are relative to support local previews. Fonts are system-installed only; no SF Pro font files are distributed. Dark mode follows the OS until manually toggled. Scroll reveals respect reduced motion. Hardware animations autoplay silently and loop inline without visible playback controls.
 
 ## Public asset allowlist
 
