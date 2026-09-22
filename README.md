@@ -99,3 +99,12 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
 </div>
+# Shi Qiu | Academic Website
+
+Personal research website: **https://spongelovesorange.github.io/shiqiu.github.io/**
+
+The live website lives in [`docs/`](docs/README.md). GitHub Pages serves the `master` branch's `/docs` folder; no local build is required. Edit [`docs/index.html`](docs/index.html) for content and [`docs/assets/style.css`](docs/assets/style.css) for styling.
+
+Only the selected photo, CV, and paper PDFs are public assets. **Do not add transcripts or other private records.** The Academic Pages template below and elsewhere in this repository is retained for reference and is not part of the deployed site.
+
+---
