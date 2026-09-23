@@ -13,8 +13,8 @@ Edit `index.html` for content, `assets/style.css` for the base academic layout, 
 - `assets/igem-prototypes-cutout.jpg`: AI-assisted background removal, linked to the original photograph for reference.
 - `assets/hardware/`: nine original images and three GIFs from https://2023.igem.wiki/xjtlu-china/hardware.html, plus MP4 playback copies and posters. Attribution: XJTLU-China 2023, CC BY 4.0. Do not describe CAD models as validated hardware results.
 - `files/Shi_Qiu_CV.pdf`: supplied academic CV.
-- `papers/`: six explicitly selected research manuscripts.
+- `papers/`: seven explicitly selected research manuscripts.
 
 Do not copy the source asset folder wholesale. Transcripts, funding proofs, identity documents, and unrelated personal files must never be added to this repository. Publication status and authorship should be updated only from confirmed information.
 
-The ICDM 2026 and PE-GPT 2.0 entries currently link to code or video without a local paper PDF. Add PDFs only when the intended public versions are available.
+The ICDM 2026 CEU entry includes the author-supplied anonymous submission PDF, uploaded with the author's approval. The PE-GPT 2.0 entry currently links to code and video without a local paper PDF. Add its PDF when the intended public version is available.
